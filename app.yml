@@ -1,0 +1,8 @@
+runtime: php74
+handlers:
+  - url: /prefs
+    script: prefs.application
+    login: required
+    
+  - Url: .*
+  script: index.php
